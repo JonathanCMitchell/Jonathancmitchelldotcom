@@ -27,6 +27,9 @@ import RedditSearchImage from './Projects/RedditSearch/reddit_web.jpg'
 import TrafficSignClassifier from './Projects/TrafficSignClassifier/TrafficSignClassifier'
 import TrafficSignClassifierImage from './Projects/TrafficSignClassifier/convnet_architecture_traffic_signs.jpg'
 
+import BehavioralCloning from './Projects/BehavioralCloning/BehavioralCloning'
+import BehavioralCloningImage from './Projects/BehavioralCloning/cartrack-sim.png'
+
 class Portfolio extends Component {
     constructor(props) {
         super(props)
@@ -40,6 +43,9 @@ class Portfolio extends Component {
                     <div className="col-md-8 col-md-offset-2">
                         <TrafficSignClassifier
                         imageurl={TrafficSignClassifierImage}
+                        />
+                        <BehavioralCloning
+                        imageurl={BehavioralCloningImage}
                         />
 
                         <LaneLineDetector

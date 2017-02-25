@@ -27,10 +27,6 @@ const RadarSensor = (props) => {
                     target ="_blank">
                     <i className="fa fa-file-pdf-o fa-3x"></i>
                 </a>
-                <a href="http://github.com/Omakaseinc/omakase"
-                   target ="_blank">
-                    <i className="fa fa-github fa-3x"></i>
-                </a>
                 <a href="https://youtu.be/HwhnhoFssBY"
                    target ="_blank">
                     <i className="fa fa-youtube fa-3x"></i>
