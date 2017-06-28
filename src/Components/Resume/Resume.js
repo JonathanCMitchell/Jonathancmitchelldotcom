@@ -1,12 +1,17 @@
 import './Resume.css'
 import React from 'react'
 import Divider from 'material-ui/Divider'
+import Paper from 'material-ui/Paper'
+
 // Note: Do not include links, they can click on your projects tab to see projects in detail
+// TODO: Add project dates
 const Resume = () => {
   return (
     <div className = "text-center">
+
     <h2>CV/ Resume</h2>
       <Divider/>
+      <Paper className="col-md-6 col-md-offset-3">
       <div className="Resume-Skills">
       <Divider/>
         <h5 className='text-center'>Technical Skills</h5>
@@ -65,8 +70,87 @@ const Resume = () => {
           <li list-style="none">A one-column UI-friendly Reddit search interface that allows users to filter live search results</li>
           <li>• Implemented models to read/write data to and from a MySql database using an Object-relational mapping tool</li>
         </ul>
-
+        <ul>
+          <li list-style="none"><strong>Radar Sensor</strong></li>
+          <li list-style="none">24 Ghz Radar sensor to detect real time speed and range measurement</li>
+          <li>• Programmed a micro-processor to control a patch antenna array and transmit signals to antenna transceiver</li>
+        </ul>
       </div>
+      <div className="Resume-Experience">
+      <Divider/>
+      <h5>Work Experience</h5>
+      <Divider/>
+        <ul>
+        <li list-style="none"><strong></strong></li>
+        <li list-style="none"><strong></strong></li>
+        <li></li>
+        <li></li>
+        </ul>
+        
+        <ul>
+          <li list-style="none"><strong>Computer Vision Researcher</strong></li>
+          <li list-style="none"><strong>USC Media and Communications Lab</strong></li>
+          <li>• Focus on unsupervised and semi-supervised learning, object segmentation and convolutional network design</li>
+          <li>• Research under prof Jay Kuo.</li>
+        </ul>
+
+
+        <ul>
+        <li list-style="none"><strong>Software Engineer</strong></li>
+        <li list-style="none"><strong>Astra</strong></li>
+        <li>• Implement bug fixes, unit testing, feature development in react and assist with time series analysis algorithms</li>
+        </ul>
+
+        <ul>
+        <li list-style="none"><strong>Founder</strong></li>
+        <li list-style="none"><a href="https://www.meetup.com/Los-Angeles-Self-Driving-Car-Meetup/"><strong>Self-Driving Cars Los Angeles</strong></a></li>
+        <li>• Prepare and present lectures on Machine Learning, Computer Vision and Image processing to 190 members</li>
+        </ul>
+
+
+        <ul>
+        <li list-style="none"><strong>Technical Mentor</strong></li>
+        <li list-style="none"><strong>Udacity</strong></li>
+        <li>• Technical mentor providing support to 17 students in Udacity’s Self-Driving Car Nanodegree program</li>
+        <li>• Provide technical support and guidance on a variety of Computer Vision/ Machine Learning topics including
+Classification, Image Processing, Artificial and Convolutional Neural Network implementation, and perception</li>
+        </ul>
+
+        <ul>
+        <li list-style="none"><strong>Automation Engineering Intern</strong></li>
+        <li list-style="none"><strong>Genentech, Oceanside, CA</strong></li>
+        <li>• Increased batch checking precision and efficiency through improving gas chromatography review tools</li>
+        <li>• Implemented SQL queries and commands to automatically render graphical data for fast validation</li>
+        </ul>
+
+        <ul>
+          <li list-style="none"><strong>Software Development Engineering Intern</strong></li>
+          <li list-style="none"><strong>inSightec</strong></li>
+          <li>• Created algorithms that contributed towards Parkinson’s tremor’s cure through designing a feedback control
+   system that monitors an MRI-guided focused-ultrasound wave during a neurosurgical procedur </li>
+          <li>• Designed control system for real-time simulation of musculoskeletal responses in MATLAB</li>
+        </ul>
+        <ul>
+        <li list-style="none"><strong>Student Body Senator</strong></li>
+        <li list-style="none"><strong>Associated Students of University of California Davis</strong></li>
+        <li></li>
+        <li></li>
+        </ul>
+      </div>
+
+      <div className="Resume-Education">
+      <Divider />
+      <h5>Education</h5>
+      <Divider />
+      <ul list-style="none">
+        <li><strong>Udacity Self-Driving Car Nanodegree: </strong>Computer Vision and Deep Learning, 2017</li>
+        <li><strong>Hack Reactor: </strong> Advanced Software Engineering Immersive, 2016</li>
+        <li><strong>University of Califiornia Davis: </strong>Electrical Engineering, 2015</li>
+        <li>Specialized in Digital and Analog Signal Processing, Control Systems, Antenna design</li>
+        <li>Deans list 2014, 2015</li>
+      </ul>  
+      </div>
+      </Paper>
     </div>
 
     )
