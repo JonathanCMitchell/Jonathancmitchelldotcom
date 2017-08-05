@@ -30,6 +30,9 @@ import TrafficSignClassifierImage from './Projects/TrafficSignClassifier/convnet
 import BehavioralCloning from './Projects/BehavioralCloning/BehavioralCloning'
 import BehavioralCloningImage from './Projects/BehavioralCloning/cartrack-sim.png'
 
+// import ObjectDetection from './Projects/ObjectDetection'
+// import ObjectDetectionImage from './Projects/ObjectDetection/ObjectDetectionImg.jpg'
+
 class Portfolio extends Component {
     constructor(props) {
         super(props)

@@ -15,12 +15,11 @@ const GameReviewApi = (props) => {
                 </CardMedia>
                 <CardTitle
                     title="Game Review API"
-                    subtitle="An api of 18 thousand game reviews from ign"
+                    subtitle="A restful API that allows users to search through 18k game reviews and query for top scores by genre, platform, title etc"
                 />
                 <CardText>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li>• Parsed game review data from ign.com and filled MySql database tables using an MVC file pattern</li>
+                <li>• Designed ES7 generator functions to synchronously seed the database with 18k row entries</li>
                 </CardText>
                     <CardActions>
                     <a href="http://gamereviewdocs.herokuapp.com"
