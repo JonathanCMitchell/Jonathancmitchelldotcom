@@ -18,8 +18,8 @@ const RadarSensor = (props) => {
                 subtitle="24 Ghz Radar sensor to detect real time speed and range measurement"
             />
             <CardText>
-                <li>Programmed a micro-processor to control a patch array antenna and transmit signals to a receiver</li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li>• Programmed a micro-processor to control a patch array antenna and transmit signals to a receiver</li>
+                <li>• Utilized SPI protocol to manipulate the amplitude of an infineon transceiver</li>
             </CardText>
             <CardActions>
                 <a

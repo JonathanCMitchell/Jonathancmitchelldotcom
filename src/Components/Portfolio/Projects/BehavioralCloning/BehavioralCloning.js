@@ -26,9 +26,9 @@ const BehavioralCloning = (props) => {
                 subtitle="Trained a Convolutional neural network to predict steering angles in a self-driving vehicle simulation"
             />
             <CardText>
-                <li>Implemented Convolutional Neural Network using keras, Numpy, Scikit, Pandas</li>
-                <li>Performed extensive data augmentation, creation, and modification to achieve a normalized distribution of steering data</li>
-                <li>Architected a complex pre-processing pipeline to feed into the network</li>
+                <li>• Implemented Convolutional Neural Network using keras, Numpy, Scikit, Pandas</li>
+                <li>• Performed extensive data augmentation, creation, and modification to achieve a normalized distribution of steering data</li>
+                <li>• Architected a complex pre-processing pipeline to feed into the network</li>
             </CardText>
             <CardActions>
                 <a href="https://github.com/JonathanCMitchell/CarND-Behavioral-Cloning-P3"

@@ -30,6 +30,9 @@ import TrafficSignClassifierImage from './Projects/TrafficSignClassifier/convnet
 import BehavioralCloning from './Projects/BehavioralCloning/BehavioralCloning'
 import BehavioralCloningImage from './Projects/BehavioralCloning/cartrack-sim.png'
 
+import SpeedEstimator from './Projects/SpeedEstimator/SpeedEstimator'
+import SpeedEstimatorImage from './Projects/SpeedEstimator/SpeedEstimatorImage.jpg'
+
 // import ObjectDetection from './Projects/ObjectDetection'
 // import ObjectDetectionImage from './Projects/ObjectDetection/ObjectDetectionImg.jpg'
 
@@ -44,6 +47,9 @@ class Portfolio extends Component {
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-md-8 col-md-offset-2">
+                        <SpeedEstimator
+                        imageurl={SpeedEstimatorImage}
+                        />
                         <TrafficSignClassifier
                         imageurl={TrafficSignClassifierImage}
                         />

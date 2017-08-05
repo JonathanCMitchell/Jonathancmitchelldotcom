@@ -18,7 +18,7 @@ const GameReviewApi = (props) => {
                     subtitle="A restful API that allows users to search through 18k game reviews and query for top scores by genre, platform, title etc"
                 />
                 <CardText>
-                <li>• Parsed game review data from ign.com and filled MySql database tables using an MVC file pattern</li>
+                <li>• Parsed game view data from ign.com and filled MySql database tables using an MVC file pattern</li>
                 <li>• Designed ES7 generator functions to synchronously seed the database with 18k row entries</li>
                 </CardText>
                     <CardActions>

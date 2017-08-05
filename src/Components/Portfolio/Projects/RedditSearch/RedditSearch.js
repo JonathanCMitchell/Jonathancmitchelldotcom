@@ -16,7 +16,7 @@ const RedditSearch = (props) => {
                 subtitle="A one-column UI-friendly Reddit search interfact that allows users to filter live search results"
             />
             <CardText>
-                <li>Designed and developed application from scratch using Angular.js, Angular-Material, Bootstrap, Node/Express</li>
+                <li>• Designed and developed application from scratch using Angular.js, Angular-Material, Bootstrap, Node/Express</li>
             </CardText>
             <CardActions>
                 <a
