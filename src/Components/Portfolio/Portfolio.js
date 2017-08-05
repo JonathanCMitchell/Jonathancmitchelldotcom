@@ -33,8 +33,8 @@ import BehavioralCloningImage from './Projects/BehavioralCloning/cartrack-sim.pn
 import SpeedEstimator from './Projects/SpeedEstimator/SpeedEstimator'
 import SpeedEstimatorImage from './Projects/SpeedEstimator/SpeedEstimatorImage.jpg'
 
-// import ObjectDetection from './Projects/ObjectDetection'
-// import ObjectDetectionImage from './Projects/ObjectDetection/ObjectDetectionImg.jpg'
+import ObjectDetection from './Projects/ObjectDetection/ObjectDetection'
+import ObjectDetectionImage from './Projects/ObjectDetection/object_detector_img.png'
 
 class Portfolio extends Component {
     constructor(props) {
@@ -47,6 +47,9 @@ class Portfolio extends Component {
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-md-8 col-md-offset-2">
+                        <ObjectDetection
+                        imageurl={ObjectDetectionImage}
+                        />
                         <SpeedEstimator
                         imageurl={SpeedEstimatorImage}
                         />

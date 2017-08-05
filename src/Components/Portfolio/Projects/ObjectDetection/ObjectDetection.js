@@ -26,35 +26,21 @@ const ObjectDetection = (props) => {
         </CardMedia>
         <CardTitle
             title="Object Detection - Vehicle Detection and Lane Finding"
-            subtitle="Trained a Convolutional neural network to predict steering angles in a self-driving vehicle simulation"
+            subtitle="Detects vehicles and lane lines from a video stream using a support vector machine and computer vision techniques"
         />
         <CardText>
-          <li>Implemented Convolutional Neural Network using keras, Numpy, Scikit, Pandas</li>
-          <li>Performed extensive data augmentation, creation, and modification to achieve a normalized distribution of steering data</li>
-          <li>Architected a complex pre-processing pipeline to feed into the network</li>
+        <li>• Designed cell-based window search method to extract image features and predict vehicle locations</li>
+        <li>• Implemented adaptive color thresholds, filtering, windowing, and morphological operations to detect lane lines</li>
         </CardText>
         <CardActions>
-          <a href="https://github.com/JonathanCMitchell/ObjectDetection"
+          <a href="https://github.com/JonathanCMitchell/ObjectDetector"
              target ="_blank">
             <i className="fa fa-github fa-3x"></i>
           </a>
-          <a href="https://youtu.be/gX1NCGVETNk"
+          <a href="https://youtu.be/YnIMM0QoqFU"
              target ="_blank">
             <i className="fa fa-youtube fa-3x"></i>
           </a>
-          <a href="https://medium.com/@jmitchell1991/behavioral-cloning-self-driving-car-simulation-14531358c87e"
-             target ="_blank">
-            <i className="fa fa-medium fa-3x"></i>
-          </a>
-          <a href="https://github.com/JonathanCMitchell/CarND-Behavioral-Cloning-P3/blob/Master/Pipeline-Final.ipynb"
-             target ="_blank">
-            <i className="fa fa-code fa-3x"></i>
-          </a>
-          <a href="https://github.com/JonathanCMitchell/CarND-Behavioral-Cloning-P3/blob/Master/Pipeline-Final.pdf"
-             target ="_blank">
-            <i className="fa fa-file-pdf-o fa-3x"></i>
-          </a>
-
         </CardActions>
       </Card>
   )
