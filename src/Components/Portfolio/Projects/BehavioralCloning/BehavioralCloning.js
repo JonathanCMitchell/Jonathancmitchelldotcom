@@ -51,7 +51,6 @@ const BehavioralCloning = (props) => {
                     target ="_blank">
                     <i className="fa fa-file-pdf-o fa-3x"></i>
                 </a>
-
             </CardActions>
         </Card>
     )
